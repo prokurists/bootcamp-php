@@ -1,0 +1,41 @@
+.game_board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 2px;
+  width: 604px;
+  height: 604px;
+  margin: 20px auto;
+}
+.game_board a {
+  background: #ff2;
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+  font-size: 150px;
+  color: black;
+}
+
+.btn {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 20%;
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+}
+
+.four-in-line {
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.four-in-line a {
+  line-height: 58px;
+  font-size: 45px;
+}
